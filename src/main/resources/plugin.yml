@@ -1,0 +1,12 @@
+name: StageTwo
+version: ${project.version}
+main: com.goodgaming.stagetwo.StageTwo
+authors: [ThatsJulian]
+description: Good Gaming, Inc - Stage Two for developer application.
+website: www.good-gaming.com
+commands:
+  balance:
+  eco:
+    permission: testproject.command.eco
+    permission-message: You not have have permission to use this command.
+    usage: "Usage: /eco give <player> <amount>"
